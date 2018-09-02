@@ -1,0 +1,106 @@
+
+gauta@DESKTOP-PRGFOJ3 MINGW64 /c/Tools/workspace/mavenwebapp
+$ git init
+Initialized empty Git repository in C:/Tools/workspace/mavenwebapp/.git/
+
+gauta@DESKTOP-PRGFOJ3 MINGW64 /c/Tools/workspace/mavenwebapp (master)
+$ git add .
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugi                n/compile/default-compile/createdFiles.lst.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugi                n/compile/default-compile/inputFiles.lst.
+The file will have its original line endings in your working directory.
+
+gauta@DESKTOP-PRGFOJ3 MINGW64 /c/Tools/workspace/mavenwebapp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/.jsdtscope
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   .settings/org.eclipse.m2e.core.prefs
+        new file:   .settings/org.eclipse.wst.common.component
+        new file:   .settings/org.eclipse.wst.common.project.facet.core.xml
+        new file:   .settings/org.eclipse.wst.jsdt.ui.superType.container
+        new file:   .settings/org.eclipse.wst.jsdt.ui.superType.name
+        new file:   .settings/org.eclipse.wst.validation.prefs
+        new file:   pom.xml
+        new file:   src/main/java/com/teamsankya/mavenproject/MavenServlet.java
+        new file:   src/main/webapp/WEB-INF/web.xml
+        new file:   src/main/webapp/index.jsp
+        new file:   target/classes/com/teamsankya/mavenproject/MavenServlet.clas                s
+        new file:   target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+        new file:   target/m2e-wtp/web-resources/META-INF/maven/com.teamsankya/m                avenwebapp/pom.properties
+        new file:   target/m2e-wtp/web-resources/META-INF/maven/com.teamsankya/m                avenwebapp/pom.xml
+        new file:   target/maven-archiver/pom.properties
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-co                mpile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-co                mpile/inputFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/defaul                t-testCompile/inputFiles.lst
+        new file:   target/mavenwebapp.war
+        new file:   target/mavenwebapp/WEB-INF/classes/com/teamsankya/mavenproje                ct/MavenServlet.class
+        new file:   target/mavenwebapp/WEB-INF/web.xml
+        new file:   target/mavenwebapp/index.jsp
+
+
+gauta@DESKTOP-PRGFOJ3 MINGW64 /c/Tools/workspace/mavenwebapp (master)
+$ git commit -m "First commit of mavenwebapp"
+[master (root-commit) 9856185] First commit of mavenwebapp
+ 26 files changed, 260 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/.jsdtscope
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 .settings/org.eclipse.m2e.core.prefs
+ create mode 100644 .settings/org.eclipse.wst.common.component
+ create mode 100644 .settings/org.eclipse.wst.common.project.facet.core.xml
+ create mode 100644 .settings/org.eclipse.wst.jsdt.ui.superType.container
+ create mode 100644 .settings/org.eclipse.wst.jsdt.ui.superType.name
+ create mode 100644 .settings/org.eclipse.wst.validation.prefs
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/teamsankya/mavenproject/MavenServlet.java
+ create mode 100644 src/main/webapp/WEB-INF/web.xml
+ create mode 100644 src/main/webapp/index.jsp
+ create mode 100644 target/classes/com/teamsankya/mavenproject/MavenServlet.clas                s
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/maven/com.teamsankya/m                avenwebapp/pom.properties
+ create mode 100644 target/m2e-wtp/web-resources/META-INF/maven/com.teamsankya/m                avenwebapp/pom.xml
+ create mode 100644 target/maven-archiver/pom.properties
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-co                mpile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-co                mpile/inputFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/defaul                t-testCompile/inputFiles.lst
+ create mode 100644 target/mavenwebapp.war
+ create mode 100644 target/mavenwebapp/WEB-INF/classes/com/teamsankya/mavenproje                ct/MavenServlet.class
+ create mode 100644 target/mavenwebapp/WEB-INF/web.xml
+ create mode 100644 target/mavenwebapp/index.jsp
+
+gauta@DESKTOP-PRGFOJ3 MINGW64 /c/Tools/workspace/mavenwebapp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+gauta@DESKTOP-PRGFOJ3 MINGW64 /c/Tools/workspace/mavenwebapp (master)
+$ git remote add orign https://gautam31@bitbucket.org/gautam31/mavenwebapp.git
+
+gauta@DESKTOP-PRGFOJ3 MINGW64 /c/Tools/workspace/mavenwebapp (master)
+$ git push -f -u orign master
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Enumerating objects: 59, done.
+Counting objects: 100% (59/59), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (59/59), 8.91 KiB | 536.00 KiB/s, done.
+Total 59 (delta 2), reused 0 (delta 0)
+To https://bitbucket.org/gautam31/mavenwebapp.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'orign'.
+
+gauta@DESKTOP-PRGFOJ3 MINGW64 /c/Tools/workspace/mavenwebapp (master)
+$

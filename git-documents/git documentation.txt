@@ -1,0 +1,13 @@
+git init --- 
+git add . 
+git add pom.xml
+git status
+git commit -m
+git commit -m "First commit of mavenwebapp"
+git status
+git remote add orign https://gautam31@bitbucket.org/gautam31/mavenwebapp.git
+git push -f -u orign master
+
+
+(For Notes)
+https://bitbucket.org/chanukya/notes/src/Maven
